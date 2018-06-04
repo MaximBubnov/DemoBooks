@@ -1,0 +1,23 @@
+Simple CRUD with Books
+
+Using such technologies:
+- Spring
+- Hibernate
+- Maven
+- slf4j
+- log4j
+
+Also we need:
+- MySQL Workbench
+- Tomcat 9
+
+Code database :
+
+CREATE TABLE books (
+id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+book_title VARCHAR(20) NOT NULL,
+book_author VARCHAR(20) NOT NULL,
+price VARCHAR(10) NOT NULL
+);
+
+Some screen presents in sources packages.
